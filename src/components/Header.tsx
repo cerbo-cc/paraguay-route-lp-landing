@@ -34,7 +34,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection('hero')}>
-            <img src={logo} alt="Paraguai Route" className="h-10 w-auto" />
+            <img src={logo} alt="Paraguai Route" className="h-14 w-auto" />
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
