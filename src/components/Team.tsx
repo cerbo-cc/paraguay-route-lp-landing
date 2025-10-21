@@ -43,11 +43,11 @@ const Team = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <CardHeader className="pb-4">
-                <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-primary/20 shadow-md">
+                <div className="w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
                   <img 
                     src={member.image} 
                     alt={member.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-center"
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground">{member.name}</h3>
