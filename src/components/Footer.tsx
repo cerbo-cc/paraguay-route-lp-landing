@@ -11,10 +11,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div className="text-center md:text-left">
-            <img src={logo} alt="Paraguai Route" className="h-12 w-auto mb-4 brightness-0 invert mx-auto md:mx-0" />
-            <p className="text-sm opacity-90">
-              Paraguai Route
-            </p>
+            <img src={logo} alt="Paraguai Route" className="h-12 w-auto brightness-0 invert mx-auto md:mx-0" />
           </div>
 
           <div className="text-center">
@@ -23,7 +20,7 @@ const Footer = () => {
               {t('footer.address')}
             </h4>
             <p className="text-sm opacity-90">
-              Asunción, Paraguay
+              Avenida Nações Unidas, 12901
             </p>
           </div>
 
@@ -31,7 +28,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Social</h4>
             <div className="flex items-center justify-center md:justify-end gap-4">
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/paraguayroute"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity"
@@ -40,7 +37,7 @@ const Footer = () => {
                 <Instagram size={24} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/paraguay-route/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity"
@@ -60,7 +57,7 @@ const Footer = () => {
       </div>
 
       <a
-        href="https://wa.me/5511999999999"
+        href="https://wa.me/5511993050495"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 w-14 h-14 bg-green-500 hover:bg-green-600 text-white rounded-full flex items-center justify-center shadow-xl transition-all duration-300 hover:scale-110 z-50"

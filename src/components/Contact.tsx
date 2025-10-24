@@ -19,7 +19,7 @@ const Contact = () => {
     e.preventDefault();
     setIsLoading(true);
 
-    // Simulating form submission - In production, this would call an edge function
+    // Simulating form submission - In production, this would send to: lana@theconnectup.com
     setTimeout(() => {
       toast.success(t('contact.success'));
       setFormData({ name: '', email: '', phone: '', message: '' });
