@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 
-type Language = 'pt' | 'es';
+type Language = 'pt' | 'en';
 
 interface LanguageContextType {
   language: Language;
@@ -60,56 +60,56 @@ const translations = {
     'footer.address': 'Endereço',
     'footer.rights': 'Todos os direitos reservados',
   },
-  es: {
+  en: {
     // Header
-    'nav.about': 'Sobre Nosotros',
-    'nav.services': 'Servicios',
-    'nav.team': 'Nuestro Equipo',
-    'nav.contact': 'Contacto',
+    'nav.about': 'About Us',
+    'nav.services': 'Services',
+    'nav.team': 'Our Team',
+    'nav.contact': 'Contact',
     
     // Hero
-    'hero.title': 'Expanda su negocio a Paraguay',
-    'hero.subtitle': 'Ayudamos a empresas brasileñas a simplificar su estructura fiscal y reducir costos de forma legal e inteligente',
-    'hero.cta': 'Contáctenos',
+    'hero.title': 'Expand your business to Paraguay',
+    'hero.subtitle': 'We help Brazilian companies simplify their tax structure and reduce costs legally and intelligently',
+    'hero.cta': 'Contact Us',
     
     // About
-    'about.title': 'Sobre Nosotros',
-    'about.text': 'Paraguai Route nació para ayudar a empresas brasileñas a simplificar su estructura fiscal y reducir costos de forma legal e inteligente. Somos especialistas en llevar negocios a Paraguay, garantizando operación eficiente y menor carga tributaria. Nuestro objetivo es proporcionar más lucro, previsibilidad y libertad financiera para quienes buscan crecer con seguridad.',
+    'about.title': 'About Us',
+    'about.text': 'Paraguai Route was created to help Brazilian companies simplify their tax structure and reduce costs legally and intelligently. We specialize in bringing businesses to Paraguay, ensuring efficient operations and lower tax burden. Our goal is to provide more profit, predictability, and financial freedom for those seeking to grow safely.',
     
     // Services
-    'services.title': 'Nuestros Servicios',
-    'services.opening.title': 'Apertura Empresarial',
-    'services.opening.desc': 'Constituimos su empresa de forma legal y estratégica, garantizando encuadramiento fiscal ventajoso y operación rápida.',
-    'services.planning.title': 'Planificación y Ejecución',
-    'services.planning.desc': 'Estructuramos su operación para pagar menos impuestos dentro de las normas, con total seguridad jurídica.',
-    'services.address.title': 'Dirección Fiscal y Soporte Local',
-    'services.address.desc': 'Proporcionamos dirección comercial y soporte local para que su empresa actúe en Paraguay con credibilidad y conformidad.',
-    'services.expansion.title': 'Expansión y Compliance',
-    'services.expansion.desc': 'Ayudamos a adaptar su empresa a las exigencias legales y estratégicas del mercado paraguayo, garantizando crecimiento sólido y sostenible.',
+    'services.title': 'Our Services',
+    'services.opening.title': 'Company Formation',
+    'services.opening.desc': 'We establish your company legally and strategically, ensuring advantageous tax classification and quick operation.',
+    'services.planning.title': 'Planning and Execution',
+    'services.planning.desc': 'We structure your operation to pay less taxes within regulations, with complete legal security.',
+    'services.address.title': 'Fiscal Address & Local Support',
+    'services.address.desc': 'We provide commercial address and local support so your company operates in Paraguay with credibility and compliance.',
+    'services.expansion.title': 'Expansion and Compliance',
+    'services.expansion.desc': 'We help adapt your company to the legal and strategic requirements of the Paraguayan market, ensuring solid and sustainable growth.',
     
     // Team
-    'team.title': 'Nuestro Equipo de Paraguay',
-    'team.gabriela.role': 'Responsable de Asuntos Migratorios',
-    'team.gabriela.desc': 'Líder y supervisora de todas las actividades relacionadas a los procesos migratorios, coordina estrategias, garantiza el cumplimiento de la legislación vigente y ofrece orientación especializada al equipo y a los clientes.',
-    'team.cristian.role': 'Especialista en Asuntos Migratorios',
-    'team.cristian.desc': 'Responsable del trámite y seguimiento de casos migratorios, ofrece soporte técnico y administrativo en todas las etapas del proceso, garantizando precisión y seguridad.',
-    'team.sebastian.role': 'Asistente Administrativo y Conductor',
-    'team.sebastian.desc': 'Responsable de prestar apoyo en las tareas administrativas y logísticas, asegura el transporte seguro del equipo y de los clientes, contribuyendo al buen funcionamiento de las actividades diarias.',
+    'team.title': 'Our Paraguay Team',
+    'team.gabriela.role': 'Head of Immigration Affairs',
+    'team.gabriela.desc': 'Leader and supervisor of all activities related to immigration processes, coordinates strategies, ensures compliance with current legislation, and provides specialized guidance to the team and clients.',
+    'team.cristian.role': 'Immigration Affairs Specialist',
+    'team.cristian.desc': 'Responsible for processing and monitoring immigration cases, provides technical and administrative support at all stages of the process, ensuring accuracy and security.',
+    'team.sebastian.role': 'Administrative Assistant and Driver',
+    'team.sebastian.desc': 'Responsible for providing support in administrative and logistical tasks, ensures safe transportation for the team and clients, contributing to the smooth functioning of daily activities.',
     
     // Contact
-    'contact.title': 'Contáctenos',
-    'contact.subtitle': 'Complete el formulario a continuación y nuestro equipo se pondrá en contacto pronto',
-    'contact.name': 'Nombre',
-    'contact.email': 'E-mail',
-    'contact.phone': 'Teléfono',
-    'contact.message': 'Mensaje',
-    'contact.submit': 'Enviar Mensaje',
-    'contact.success': '¡Mensaje enviado con éxito!',
-    'contact.error': 'Error al enviar mensaje. Intente nuevamente.',
+    'contact.title': 'Get in Touch',
+    'contact.subtitle': 'Fill out the form below and our team will contact you soon',
+    'contact.name': 'Name',
+    'contact.email': 'Email',
+    'contact.phone': 'Phone',
+    'contact.message': 'Message',
+    'contact.submit': 'Send Message',
+    'contact.success': 'Message sent successfully!',
+    'contact.error': 'Error sending message. Please try again.',
     
     // Footer
-    'footer.address': 'Dirección',
-    'footer.rights': 'Todos los derechos reservados',
+    'footer.address': 'Address',
+    'footer.rights': 'All rights reserved',
   },
 };
 

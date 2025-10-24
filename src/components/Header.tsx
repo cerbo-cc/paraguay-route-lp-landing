@@ -61,12 +61,12 @@ const Header = () => {
                 PT
               </Button>
               <Button
-                variant={language === 'es' ? 'default' : 'ghost'}
+                variant={language === 'en' ? 'default' : 'ghost'}
                 size="sm"
-                onClick={() => setLanguage('es')}
+                onClick={() => setLanguage('en')}
                 className="font-semibold"
               >
-                ES
+                EN
               </Button>
             </div>
           </nav>
@@ -105,12 +105,12 @@ const Header = () => {
                   PT
                 </Button>
                 <Button
-                  variant={language === 'es' ? 'default' : 'ghost'}
+                  variant={language === 'en' ? 'default' : 'ghost'}
                   size="sm"
-                  onClick={() => setLanguage('es')}
+                  onClick={() => setLanguage('en')}
                   className="font-semibold"
                 >
-                  ES
+                  EN
                 </Button>
               </div>
             </div>
