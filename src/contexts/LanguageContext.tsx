@@ -23,7 +23,7 @@ const translations = {
     
     // About
     'about.title': 'Sobre Nós',
-    'about.text': 'A Paraguai Route nasceu para ajudar empresas brasileiras a simplificar sua estrutura fiscal e reduzir custos de forma legal e inteligente. Somos especialistas em levar negócios para o Paraguai, garantindo operação eficiente e menor carga tributária. Nosso objetivo é proporcionar mais lucro, previsibilidade e liberdade financeira para quem busca crescer com segurança.',
+    'about.text': 'A Zentra nasceu para ajudar empresas brasileiras a simplificar sua estrutura fiscal e reduzir custos de forma legal e inteligente. Somos especialistas em levar negócios para o Paraguai, garantindo operação eficiente e menor carga tributária. Nosso objetivo é proporcionar mais lucro, previsibilidade e liberdade financeira para quem busca crescer com segurança.',
     
     // Services
     'services.title': 'Nossos Serviços',
@@ -44,6 +44,8 @@ const translations = {
     'team.cristian.desc': 'Responsável pelo trâmite e acompanhamento de casos migratórios, oferece suporte técnico e administrativo em todas as etapas do processo, garantindo precisão e segurança.',
     'team.sebastian.role': 'Assistente Administrativo e Motorista',
     'team.sebastian.desc': 'Responsável por prestar apoio nas tarefas administrativas e logísticas, assegura o transporte seguro da equipe e dos clientes, contribuindo para o bom funcionamento das atividades diárias.',
+    'team.lana.role': 'Chefe de Operações LATAM',
+    'team.lana.desc': 'Responsável por liderar o time LATAM, coordenar e expandir as operações no Brasil e demais países da região. Atua garantindo eficiência operacional, integração entre equipes e alinhamento estratégico para o crescimento da empresa na América Latina.',
     
     // Contact
     'contact.title': 'Entre em Contato',
@@ -74,7 +76,7 @@ const translations = {
     
     // About
     'about.title': 'About Us',
-    'about.text': 'Paraguai Route was created to help Brazilian companies simplify their tax structure and reduce costs legally and intelligently. We specialize in bringing businesses to Paraguay, ensuring efficient operations and lower tax burden. Our goal is to provide more profit, predictability, and financial freedom for those seeking to grow safely.',
+    'about.text': 'Zentra was created to help Brazilian companies simplify their tax structure and reduce costs legally and intelligently. We specialize in bringing businesses to Paraguay, ensuring efficient operations and lower tax burden. Our goal is to provide more profit, predictability, and financial freedom for those seeking to grow safely.',
     
     // Services
     'services.title': 'Our Services',
@@ -95,6 +97,8 @@ const translations = {
     'team.cristian.desc': 'Responsible for processing and monitoring immigration cases, provides technical and administrative support at all stages of the process, ensuring accuracy and security.',
     'team.sebastian.role': 'Administrative Assistant and Driver',
     'team.sebastian.desc': 'Responsible for providing support in administrative and logistical tasks, ensures safe transportation for the team and clients, contributing to the smooth functioning of daily activities.',
+    'team.lana.role': 'LATAM Operations Chief',
+    'team.lana.desc': 'Responsible for leading the LATAM team, coordinating and expanding operations in Brazil and other countries in the region. Works ensuring operational efficiency, team integration, and strategic alignment for company growth in Latin America.',
     
     // Contact
     'contact.title': 'Get in Touch',
