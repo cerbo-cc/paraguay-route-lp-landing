@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div className="text-center md:text-left">
-            <img src={logo} alt="Paraguai Route" className="h-12 w-auto brightness-0 invert mx-auto md:mx-0" />
+            <img src={logo} alt="Zentra" className="h-6 w-auto brightness-0 invert mx-auto md:mx-0" />
           </div>
 
           <div className="text-center">
@@ -51,7 +51,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center">
           <p className="text-sm opacity-75">
-            © {currentYear} Paraguai Route. {t('footer.rights')}.
+            © {currentYear} Zentra. {t('footer.rights')}.
           </p>
         </div>
       </div>

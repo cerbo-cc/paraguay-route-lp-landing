@@ -3,6 +3,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import gabrielaImg from '@/assets/team/gabriela.png';
 import cristianImg from '@/assets/team/cristian.png';
 import sebastianImg from '@/assets/team/sebastian.png';
+import lanaImg from '@/assets/team/lana.png';
 
 const Team = () => {
   const { t } = useLanguage();
@@ -26,6 +27,12 @@ const Team = () => {
       description: t('team.sebastian.desc'),
       image: sebastianImg,
     },
+    {
+      name: 'Lana Pedro',
+      role: t('team.lana.role'),
+      description: t('team.lana.desc'),
+      image: lanaImg,
+    },
   ];
 
   return (
@@ -35,7 +42,7 @@ const Team = () => {
           {t('team.title')}
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
           {team.map((member, index) => (
             <Card 
               key={index} 
