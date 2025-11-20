@@ -10,6 +10,12 @@ const Team = () => {
 
   const team = [
     {
+      name: 'Lana Pedro',
+      role: t('team.lana.role'),
+      description: t('team.lana.desc'),
+      image: lanaImg,
+    },
+    {
       name: 'Gabriela',
       role: t('team.gabriela.role'),
       description: t('team.gabriela.desc'),
@@ -26,12 +32,6 @@ const Team = () => {
       role: t('team.sebastian.role'),
       description: t('team.sebastian.desc'),
       image: sebastianImg,
-    },
-    {
-      name: 'Lana Pedro',
-      role: t('team.lana.role'),
-      description: t('team.lana.desc'),
-      image: lanaImg,
     },
   ];
 
